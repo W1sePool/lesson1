@@ -1,0 +1,11 @@
+shop = ["Ведро", "Хлеб", "Апельсины","Ручка"]
+print(shop)
+print(len(shop))
+shop.append("Python")
+print(shop)
+print(len(shop))
+print(shop[0])
+print(shop[-1])
+print(shop[1:4])
+shop.remove("Python")
+print(shop)
